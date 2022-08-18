@@ -28,7 +28,8 @@
     "macropad"
   ],
   "dependencies": {
-    "@maximkulkin/macropad": "^1.0.0"
+    "@maximkulkin/macropad": "^1.0.0",
+    "color": "^3.0.3"
   },
   "devDependencies": {
     "@types/node": "^16.10.9",
