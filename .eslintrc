@@ -19,7 +19,7 @@
     "comma-dangle": ["warn", "always-multiline"],
     "dot-notation": "off",
     "eqeqeq": "warn",
-    "curly": ["warn", "all"],
+    "curly": ["off"],
     "brace-style": ["warn"],
     "prefer-arrow-callback": ["warn"],
     "max-len": ["warn", 140],
@@ -32,7 +32,7 @@
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/semi": ["warn"],
+    "@typescript-eslint/semi": ["off"],
     "@typescript-eslint/member-delimiter-style": ["warn"]
   }
 }

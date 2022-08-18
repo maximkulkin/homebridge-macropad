@@ -1,4 +1,4 @@
-import { AccessoryConfig, AccessoryPlugin, API, CharacteristicEventTypes, Logging, Service } from 'homebridge'
+import { AccessoryConfig, AccessoryPlugin, API, Logging, Service } from 'homebridge'
 import { MacroPad, ButtonEventType } from '@maximkulkin/macropad'
 import * as Color from 'color'
 
@@ -129,8 +129,6 @@ class MacroPadAccessoryPlugin implements AccessoryPlugin {
   }
 
   _update_light(index) {
-    const Char = this.api.hap.Characteristic
-
     if (!this.lightOn[index]) {
       this.device.setLightOff(index)
       return
