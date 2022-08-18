@@ -1,7 +1,7 @@
 {
   "private": true,
   "displayName": "MacroPad",
-  "name": "homebridge-macropad",
+  "name": "@maximkulkin/homebridge-macropad",
   "version": "1.0.0",
   "description": "Adafruit RP2040 MacroPad HomeKit integration",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "macropad"
   ],
   "dependencies": {
-    "@maximkulkin/macropad": "^1.0.0",
+    "@maximkulkin/macropad": "^1.0.1",
     "color": "^3.0.3"
   },
   "devDependencies": {
